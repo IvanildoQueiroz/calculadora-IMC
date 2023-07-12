@@ -6,7 +6,7 @@ BMI calculator that asks for weight and height parameters to then apply formula 
 
 ## Information 🙋‍♂️
 
-The project was completed in 1 hour. I used the IDE "Visual Studio Code" to write the code and use the terminal. The project has only one HTML, CSS and JS file.
+The project was completed. I used the IDE "Visual Studio Code" to write the code and use the terminal. The project has only one HTML, CSS and JS file.
 
 ## Technologies ⚙️
 
