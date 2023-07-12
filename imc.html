@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<form action="">
+    <h1>Indice IMC</h1>
+    <div class="dataInformation">
+        <div id="data-1">
+            <h3>IMC</h3>
+            <p>Menos do que 18,5</p>
+            <p>Entre 18,5 e 24,9</p>
+            <p>Entre 25 e 29,9</p>
+            <p>Entre 30 e 34,9</p>
+            <p>Entre 35 e 39,9</p>
+            <p>Mais do que 40</p>
+        </div>
+        <div id="data-2">
+            <h3>Resultado</h3>
+            <p class="indice-1 indice" >Abaixo do peso</p>
+            <p class="indice-2 indice" >Peso normal</p>
+            <p class="indice-3 indice" >Sobrepeso</p>
+            <p class="indice-4 indice" >Obesidade grau I</p>
+            <p class="indice-5 indice" >Obesidade grau II</p>
+            <p class="indice-6 indice" >Obesidade grau III</p>
+        </div>
+    </div>
+    <h2>Calcule seu IMC</h2>
+    <div class="receveDataPeople off-display ">
+        <label for="heightPeople">Altura: </label>
+        <input type="text" id="heightPeople" placeholder="ex.: 1.85">
+        <label for="weight">Peso: </label>
+        <input type="text" id="weight" placeholder="ex.: 70.1">
+    </div>
+    <div class="DataPeople"></div>
+    <div class="loadData off-display"></div>
+    <button type="submit">Verificar</button>
+    <button class="calculatedata off-display">calcular</button>
+</form>
+<script src="../JS/imc.js"></script>
+</body>
+</html>
