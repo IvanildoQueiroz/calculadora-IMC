@@ -27,7 +27,7 @@ function setResult(){
     const DataPeople = document.querySelector('.DataPeople');
     DataPeople.innerHTML = "";
 
-    //validando peso e altura
+    //validing weigth and height
     if(!height) return alert('Informe apenas numeros - altura');
     if(!weight)return alert('Informe apenas numeros - peso');
     loadData.classList.remove('off-display');
@@ -63,7 +63,7 @@ function setResult(){
     
     
 }
-//claculando IMC
+//calculating IMC
 function getImc(weight,height){
     const imc = weight / height**2;
     return imc.toFixed(2);
